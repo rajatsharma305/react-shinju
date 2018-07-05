@@ -15,7 +15,7 @@ import { subscribeComponent } from 'react-shinju';
 const State = StateTree();
 
 const Counter = ({ state }) => (
-  <div onClick={_ => State.add(state.counter + 1, 'counter')}>
+  <div onClick={_ => State.add((state.counter || 0) + 1, 'counter')}>
     {state.counter}
   </div>
 );
