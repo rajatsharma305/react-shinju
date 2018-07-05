@@ -1,29 +1,42 @@
 {
-  "name": "mu2",
-  "version": "1.0.0",
-  "description": "Basic Compositon of all Js repos",
-  "main": "lib/index.js",
+  "name": "react-shinju",
+  "version": "0.1.0",
+  "description": "Ultra Lightweight React State Management with Shinju",
+  "main": "build/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "NODE_ENV=production node build.js",
+    "dev": "NODE_ENV=development node build.js"
   },
   "devDependencies": {
+    "@higherorder/shinju": "^0.1.3",
+    "@lectro/core": "^1.1.2-alpha-17",
     "babel-eslint": "^8.1.2",
     "eslint": "4.18.2",
-    "eslint-config-airbnb-base": "12.1.0",
+    "eslint-config-airbnb": "16.1.0",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-prettier": "^2.6.0",
-    "prettier": "^1.13.2"
+    "prettier": "^1.13.2",
+    "react": "^16.4.1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rajatsharma305/mu2.git"
+    "url": "git+https://github.com/rajatsharma305/react-shinju.git"
   },
-  "keywords": ["repos", "js", "eslint", "prettier", "editorconfig"],
+  "keywords": [
+    "state",
+    "js",
+    "immutable",
+    "trees",
+    "react",
+    "subscribe",
+    "state-container"
+  ],
   "author": "Rajat Sharma",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rajatsharma305/mu2/issues"
+    "url": "https://github.com/rajatsharma305/react-shinju/issues"
   },
-  "homepage": "https://github.com/rajatsharma305/mu2#readme"
+  "homepage": "https://github.com/rajatsharma305/react-shinju#react-shinju"
 }
