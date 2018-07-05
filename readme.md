@@ -4,7 +4,7 @@ _Ultra Lightweight React State Management with Shinju_
 
 ### What is Shinju?
 
-[Go Here](https://github.com/rajatsharma305/shinju)
+👉[Go Here](https://github.com/rajatsharma305/shinju)
 
 ### Usage
 
