@@ -839,7 +839,7 @@
     webpack-dev-server "3.1.14"
     webpack-node-externals "1.7.2"
 
-"@higherorder/shinju@0.1.5":
+"@higherorder/shinju@^0.1.5":
   version "0.1.5"
   resolved "https://registry.npmjs.org/@higherorder/shinju/-/shinju-0.1.5.tgz#28820d3a84e845a7c20b1a2c95b253c133679154"
   integrity sha512-2m6pz1H+ZZKj+uEfys2uSj3gphSoNNKtcWiWAa7gEftwKia1CB9iqQOX+XhixuuSXZN59K80GS8arXINb6CwQQ==
