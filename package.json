@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rajatsharma305/react-shinju.git"
+    "url": "git+https://github.com/rajatsharma/react-shinju.git"
   },
   "keywords": [
     "state",
@@ -36,9 +36,9 @@
   "author": "Rajat Sharma",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rajatsharma305/react-shinju/issues"
+    "url": "https://github.com/rajatsharma/react-shinju/issues"
   },
-  "homepage": "https://github.com/rajatsharma305/react-shinju#react-shinju",
+  "homepage": "https://github.com/rajatsharma/react-shinju#react-shinju",
   "dependencies": {
     "@higherorder/shinju": "0.1.5",
     "@lectro/babel-preset-lectro": "^1.1.2-beta-2"
