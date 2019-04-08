@@ -17,6 +17,7 @@
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-prettier": "^2.6.0",
+    "np": "^4.0.2",
     "prettier": "^1.13.2",
     "react": "^16.4.1"
   },
