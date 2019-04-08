@@ -839,7 +839,7 @@
     webpack-dev-server "3.1.14"
     webpack-node-externals "1.7.2"
 
-"@higherorder/shinju@^0.1.5":
+"@higherorder/shinju@0.1.5":
   version "0.1.5"
   resolved "https://registry.npmjs.org/@higherorder/shinju/-/shinju-0.1.5.tgz#28820d3a84e845a7c20b1a2c95b253c133679154"
   integrity sha512-2m6pz1H+ZZKj+uEfys2uSj3gphSoNNKtcWiWAa7gEftwKia1CB9iqQOX+XhixuuSXZN59K80GS8arXINb6CwQQ==
@@ -848,6 +848,25 @@
   version "1.1.2-beta-1"
   resolved "https://registry.npmjs.org/@lectro/babel-preset-lectro/-/babel-preset-lectro-1.1.2-beta-1.tgz#221b4aac7d36b2176493cca9fa4cdb20e00beed5"
   integrity sha512-M/X4aQ/pFol7zwhDX0KpBIymF00DOOZzynyOJkad/w4O/Qb9jlJ97BDXS/puqaYYHLtxoo3M/8rjpY4emYvY4w==
+  dependencies:
+    "@babel/plugin-proposal-class-properties" "7.0.0"
+    "@babel/plugin-proposal-object-rest-spread" "7.0.0"
+    "@babel/plugin-proposal-optional-chaining" "7.0.0"
+    "@babel/plugin-proposal-pipeline-operator" "7.0.0"
+    "@babel/plugin-syntax-dynamic-import" "7.0.0"
+    "@babel/plugin-transform-modules-commonjs" "7.0.0"
+    "@babel/plugin-transform-parameters" "7.0.0"
+    "@babel/plugin-transform-regenerator" "7.0.0"
+    "@babel/plugin-transform-runtime" "7.0.0"
+    "@babel/preset-env" "7.0.0"
+    "@babel/preset-react" "7.0.0"
+    "@babel/runtime" "7.0.0"
+    babel-plugin-implicit-function "0.1.1"
+
+"@lectro/babel-preset-lectro@^1.1.2-beta-2":
+  version "1.1.2-beta-2"
+  resolved "https://registry.npmjs.org/@lectro/babel-preset-lectro/-/babel-preset-lectro-1.1.2-beta-2.tgz#a7ce68cd68ae739cb5ab43737822a4e052cb01fa"
+  integrity sha512-Wd96yMf1AidoU8X1tAoIeYjPtFD3TscW4+xkQdfnk45d8cU8SVOX7ylyvU2KBw9gXFYug8G43UB5LVK58ZR1DQ==
   dependencies:
     "@babel/plugin-proposal-class-properties" "7.0.0"
     "@babel/plugin-proposal-object-rest-spread" "7.0.0"

@@ -40,6 +40,7 @@
   },
   "homepage": "https://github.com/rajatsharma305/react-shinju#react-shinju",
   "dependencies": {
-    "@higherorder/shinju": "0.1.5"
+    "@higherorder/shinju": "0.1.5",
+    "@lectro/babel-preset-lectro": "^1.1.2-beta-2"
   }
 }
