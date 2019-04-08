@@ -4,7 +4,6 @@
   "description": "Ultra Lightweight React State Management with Shinju",
   "main": "build/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "NODE_ENV=production en-libstarter build",
     "dev": "NODE_ENV=development en-libstarter dev",
     "release": "np"
